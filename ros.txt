@@ -3,3 +3,4 @@ rospack  find  urdf_tutorial搜索是否已经安装这个包
  sudo  apt-get install  joint_state_publisher 安装不上的话，下载源码
  git  clone  https://github.com/ros/joint_state_publisher.git 然后catkin_make 
 catkin_make --pkg aiad_hmi
+rostopic list    rostopic echo /rviz_trajectory_array 显示消息具体内容
