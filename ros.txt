@@ -5,4 +5,11 @@
     git  clone  https://github.com/ros/joint_state_publisher.git 然后catkin_make 
 三、catkin_make --pkg aiad_hmi
 四、rostopic list    rostopic echo /rviz_trajectory_array 显示消息具体内容
+五、安装功能包时候注意安装的版本kinetic/indigo/lunnar/melodic
+    (1)指令安装
+    rosrun gps_common utm_odometry_node
+    （2）源码安装
+        git clone https://github.com/ktossell/gps_umd
+        rosrun gps_common utm_odometry_node
+    
 
