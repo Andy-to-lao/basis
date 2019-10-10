@@ -47,3 +47,9 @@
       如果还是不行，就用
       sudo chmod 777 文件夹名
       sudo rm -rf 文件夹名
+五、终端软件
+      terminator
+      ctrl+shift+o  下开窗口
+      ctrl+shift+e  右开窗口
+      ctrl+shift+w  关闭窗口
+      ctrl+shift+i  另起终端
