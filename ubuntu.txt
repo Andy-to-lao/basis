@@ -26,3 +26,4 @@
       # 此时dpkg的列表中有“rc”状态的软件包，可以执行如下命令做最后清理：
       dpkg -l |grep ^rc|awk '{print $2}' |sudo xargs dpkg -P
       当然如果要删除暂存的软件安装包，也可以再使用clean命令。
+三、 git clone https://github.com/CPFL/Autoware.git --recurse-submodules
