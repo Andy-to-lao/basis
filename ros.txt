@@ -11,5 +11,13 @@
     （2）源码安装
         git clone https://github.com/ktossell/gps_umd
         rosrun gps_common utm_odometry_node
-    
+六、在cmake文件中
+    add_executable(get_Image nodes/get_Image/get_Image.cpp)
+    add_executable(get_PCD nodes/get_PCD/get_PCD.cpp)
+    add_executable(get_Depth nodes/get_Depth/get_Depth.cpp)
+    target_link_libraries(get_Image ${catkin_LIBRARIES})
+    target_link_libraries(get_PCD ${catkin_LIBRARIES})
+    target_link_libraries(get_Depth ${catkin_LIBRARIES})
+    注意顺序
+
 
