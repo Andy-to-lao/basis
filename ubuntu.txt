@@ -70,3 +70,5 @@
        Syntax error: end of file unexpected (expecting "then")
 八、手动输入路径
       ctrl+l
+九、在路径中搜索
+      sudo find ./  -name autoware_msgs
