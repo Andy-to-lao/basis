@@ -21,5 +21,6 @@
     注意顺序
 七、在cmake中find_package(autoware_build_flags REQUIRED)
     REQUIRED表示如果没有找到，cmake会停止处理，并报告一个错误.
-
+八、ros中查找有无某包
+    rospack  find  autoware_build_flags
 
