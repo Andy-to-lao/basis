@@ -68,3 +68,5 @@
 七、在编写sh文件时候ubuntu和win下的回车不同造成错误
       https://www.cnblogs.com/langlang/archive/2010/11/27/1889664.html
        Syntax error: end of file unexpected (expecting "then")
+八、手动输入路径
+      ctrl+l
