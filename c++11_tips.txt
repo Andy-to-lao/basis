@@ -2,9 +2,14 @@
   unique_ptr (const unique_ptr&) = delete;
   unique_ptr& operator= (const unique_ptr&) = delete;
 2.在c++11直接定义函数体代替静态函数是非常常用的方式。
-3.unique_ptr功能基本对应boost的scoped_ptr，或之前stl的auto_ptr，生命周期随构造者，   reset    自动析构再重新构造，get判断是否有效、支持放在容器内；
+3.unique_ptr功能基本对应boost的scoped_ptr，或之前stl的auto_ptr，生命周期随构造者，reset自动析构再重新构造，get判断是否有效、支持放在容器内；
 4.C++11对map容器的访问：下标访问、at（）、find、lower_bound&upper_bound、equal_range，其中at（）比较安全，不会溢出
 5.这里介绍一个如何删除容器中元素的函数，包括顺序容器和关联容器。就是这个erase函数，基本用法如下：
   c.erase(b,e)---从c中删除迭代器对b和e所表示的范围中的元素，返回e
 6.C++11 新增了emplace_back方法，比push_back的效率要高很多。
-7.
+7.向量（Vector）是一个封装了动态大小数组的顺序容器（Sequence Container）。跟任意其它类型容器一样，它能够存放各种类型的  对象  。可以简单的认为，向量是一个能够存放任意类型的动态数组。（1）Vector<类型>标识符（2）Vector<类型>标识符(最大容量)（3）Vector<类型>标识符(最大容量,初始所有值)（4）Int i[5]={1,2,3,4,5}（5）Vector<类型>vi(I,i+2);//得到i索引值为3以后的值（6）Vector< vector< int> >v; 二维向量//这里最外的<>要有空格。否则在比较旧的编译器下无法通过。（1）pop_back()&push_back(elem)实例在容器最后移除和插入数据；（2）clear()清除容器中所有数据；（3）sort(obj.begin(),obj.end());//从小到大排序，  reverse(obj.begin(),obj.end());//从大到小排序；（4）cout<<obj[i]<<" ";直接访问，vector<int>::iterator it;//声明一个迭代器，来访问vector容器，作用：遍历或者指向vector容器的元素，迭代器访问。
+
+
+
+
+
