@@ -26,6 +26,7 @@
 9.struct是阉割版的class，struct也可以有构造函数，构造函数可以进行重载
 10.constexpr是C++11中新增的关键字，其语义是“常量表达式”，也就是在编译期可求值的表达式。
 11.c++ 11 lambda表达式类似于函数变量。 auto c = [=] {return a + b;}; //调用c()时候不会更新返回值  auto d = [&] {return a + b;};由于是取址，会改变。
+12. std::stringstream 用于参数类型转换
 
 
 
