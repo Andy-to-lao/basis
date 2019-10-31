@@ -23,4 +23,5 @@
     REQUIRED表示如果没有找到，cmake会停止处理，并报告一个错误.
 八、ros中查找有无某包
     rospack  find  autoware_build_flags
-
+九、rosparam  list   查看包含的param  
+rosparam get  /rviz_test_node/base_clothoid_path显示内容
