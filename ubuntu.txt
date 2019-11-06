@@ -1,4 +1,4 @@
-一、删除一个非空文件夹 rm -rf urdf_tutorial/
+一、删除一个非空文件夹 rmdir urdf_tutorial/
 
 二、apt-get的卸载相关的命令有remove/purge/autoremove/clean/autoclean等。具体来说：
 
