@@ -32,3 +32,5 @@ rosparam get  /rviz_test_node/base_clothoid_path显示内容
 十一、ros中设置相对路径：
     #include <ros/package.h> 
     #define SRC_PATH (ros::package::getPath("aiad_hmi") + "/src/rviz_path/config/")
+
+
