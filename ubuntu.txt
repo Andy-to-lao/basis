@@ -53,6 +53,7 @@
       ctrl+shift+e  右开窗口
       ctrl+shift+w  关闭窗口
       ctrl+shift+i  另起终端
+      https://blog.csdn.net/zhangkzz/article/details/90524066
 六、扩展虚拟内存swap
       https://blog.csdn.net/weixin_41803041/article/details/79496016
       https://www.cnblogs.com/zl1991/p/7994099.html
