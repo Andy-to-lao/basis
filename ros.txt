@@ -37,4 +37,5 @@ rosparam get  /rviz_test_node/base_clothoid_path显示内容
         sudo apt-get install ros-kinetic-moveit
         Setup your environment
         source /opt/ros/kinetic/setup.bash
-
+十三、查看某个节点订阅和发布的哪些topic。
+        rosnode  info  <node_name>
