@@ -1,0 +1,14 @@
+1.gdb调试 ros
+  ①launch.json中    "configurations": [  后添加如下
+        
+        {
+        
+            "name": "lidar_track",
+            "type": "ros",
+            "request": "launch",
+            "target": "/home/aiad/lidar_perception_aiad_v3/src/lidar_euclidean_cluster/launch/lidar_euclidean_cluster.launch"
+        },
+  ②CMakeLists.txt  中
+    add_definitions(-std=c++11 -O0 -g)
+
+2.
