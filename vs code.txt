@@ -15,3 +15,12 @@
     Editor: Word Wrap   Controls how lines should wrap.设置为 on
 3. 自定义快捷键 
     Keyboard Shortcuts  Go Back  Go Foward
+4.  快捷键
+    行注释：Ctrl + /；
+    块注释：Alt + Shit + A；
+    格式化：Alt + Ctrl + i;
+    行移动：Alt + ↑/↓
+    代码格式化整理 ：Ctrl + Shift + I 选择配置C/C++
+  
+5. 插件 Bracket Pair Colorizer 用不同颜色高亮显示匹配的括号
+6. 
