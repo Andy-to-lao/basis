@@ -13,3 +13,5 @@
 
 2.  自动换行 setting 中
     Editor: Word Wrap   Controls how lines should wrap.设置为 on
+3. 自定义快捷键 
+    Keyboard Shortcuts  Go Back  Go Foward
