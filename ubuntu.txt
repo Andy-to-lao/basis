@@ -99,5 +99,8 @@
       .rar
       解压：rar x FileName.rar
       压缩：rar a FileName.rar DirName
-
+十一、ubuntu录屏软件
+      kazam
+十二、报错：No rule to make target 'lidar_road_edge/CMakeFiles/road_edge.dir/build'.  Stop.
+      文件错误，名字或者路径错误
 
