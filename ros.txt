@@ -39,3 +39,9 @@ rosparam get  /rviz_test_node/base_clothoid_path显示内容
         source /opt/ros/kinetic/setup.bash
 十三、查看某个节点订阅和发布的哪些topic。
         rosnode  info  <node_name>
+十四、静态坐标转换
+         <node pkg="tf" type="static_transform_publisher" name="link1_broadcaster" args="1 0 0 0 0 0 1 /link1_parent /link1 100" />
+                                                                                         x y z yaw pitch roll               发布频率
+                                                                                               四元数
+          xyz单位是 米;   yaw pitch roll单位是 弧度;   发布频率，单位为 毫秒。
+          
