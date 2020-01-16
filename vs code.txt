@@ -11,8 +11,8 @@
   ②CMakeLists.txt  中
     add_definitions(-std=c++11 -O0 -g)
 
-2.  自动换行 setting 中
-    Editor: Word Wrap   Controls how lines should wrap.设置为 on
+2.  保存自动格式化 setting 中
+    Editor: Format On Save   点击√。
 3. 自定义快捷键 
     Keyboard Shortcuts  Go Back  Go Foward
 4.  快捷键
