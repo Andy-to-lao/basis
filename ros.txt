@@ -45,3 +45,5 @@ rosparam get  /rviz_test_node/base_clothoid_path显示内容
                                                                                                四元数
           xyz单位是 米;   yaw pitch roll单位是 弧度;   发布频率，单位为 毫秒。
           
+十五、ros中读取bag中的pointcloud数据存为pcd格式：
+    rosrun pcl_ros bag_to_pcd ***.bag /topic path
