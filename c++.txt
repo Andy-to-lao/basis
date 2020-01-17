@@ -35,4 +35,5 @@
 18.cout设置精度：
     std::cout.setf(std::ios::fixed, std::ios::floatfield);
     std::cout.precision(6);
-
+19.进程加速OpenMP
+  #pragma omp parallel for  schedule(runtime)
