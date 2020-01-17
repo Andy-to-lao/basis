@@ -32,5 +32,7 @@
 15.std::unique_ptr不共享指针，只可以move不可以复制，防止占用空间未释放
 16.“引用”与指针的区别是什么？指针通过某个指针变量指向一个对象后，对它所指向的变量间接操作。程序中使用指针，程序的可读性差；而引用本身就是目标变量的别名，对引用的操作就是对目标变量的操作。此外，就是上面提到的对函数传ref和pointer的区别。
 17.错误：Assertion `px != 0' failed  智能指针未初始化
-
+18.cout设置精度：
+    std::cout.setf(std::ios::fixed, std::ios::floatfield);
+    std::cout.precision(6);
 
