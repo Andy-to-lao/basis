@@ -13,8 +13,6 @@ sudo gedit ~/.bashrc；
 source ~/.bashrc
 重启一个新的终端
 
-conda create -n tensorflow python=3.6
-source activate tensorflow
 
 conda是一种通用包管理系统，旨在构建和管理任何语言和任何类型的软件。举个例子：包管理与pip的使用类似，
 环境管理则允许用户方便地安装不同版本的python并可以快速切换。
@@ -42,3 +40,9 @@ eg:  conda create -n env_name pandas 
 退出环境 : conda deactivate  env_name
 删除虚拟环境：conda env remove -n env_name
 显示所有虚拟环境：conda env list  
+
+conda install tensorflow
+conda install spyder
+启动：spyder
+
+
