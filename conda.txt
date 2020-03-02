@@ -1,3 +1,18 @@
+下载
+miniocnda 的 bash 文件下载链接 https://conda.io/miniconda.html ;
+安装
+bash Miniconda3-latest-Linux-x86_64.sh
+测试
+conda --version
+conda list
+卸载
+rm -rf anaconda文件夹名
+清理下.bashrc中的Anaconda路径：
+sudo gedit ~/.bashrc；
+在.bashrc文件末尾用#号注释掉之前添加的路径(或直接删除)：#export PATH=/home/lq/anaconda3/bin:$PATH
+source ~/.bashrc
+重启一个新的终端
+
 conda是一种通用包管理系统，旨在构建和管理任何语言和任何类型的软件。举个例子：包管理与pip的使用类似，
 环境管理则允许用户方便地安装不同版本的python并可以快速切换。
 
@@ -7,7 +22,8 @@ Anaconda则是一个打包的集合，里面预装好了conda、某个版本的p
 Miniconda，顾名思义，它只包含最基本的内容——python与conda，以及相关的必须依赖项，对于空间要求严格的用户，
 Miniconda是一种选择。就只包含最基本的东西，其他的库得自己装。
 
-
+conda create -n tensorflow python=3.6
+source activate tensorflow
 对conda的基本掌握：
 1：基本操作：
 升级全部库：  conda upgrade --all
