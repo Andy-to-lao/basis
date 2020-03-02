@@ -1,0 +1,17 @@
+对conda的基本掌握：
+1：基本操作：
+升级全部库：  conda upgrade --all
+升级一个包  conda update packagename
+安装包：conda install packagename
+也可以安装多个包：   conda installl numpy pandas scipy
+安装固定版本的包：conda install numpy =1.10
+移除一个包：conda remove packagename 
+查看所有包：conda list 
+2：管理python环境：
+创建虚拟环境：conda create -n env_name list of packagenaem
+eg:  conda create -n env_name pandas 
+指定python版本：conda create -n env_name python2 = 2.7 pandas 
+激活环境： activate env_name
+退出环境 :  deactivate  env_name
+删除虚拟环境：conda env remove -n env_name
+显示所有虚拟环境：conda env list  
