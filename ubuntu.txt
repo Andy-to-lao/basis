@@ -103,4 +103,7 @@
       kazam
 十二、报错：No rule to make target 'lidar_road_edge/CMakeFiles/road_edge.dir/build'.  Stop.
       文件错误，名字或者路径错误
-
+十三、[Ubuntu]Linux下如何解决目录绿色高亮
+      系统默认这是一个高风险目录，因为任何人都可以该目录进行写入操作，当然也包括黑客。所以将它显示为醒目的绿色背景以警示操作者
+      解决方法：chmod -R 775 PYCR/
+      表示将PYCR文件夹下所有的文件权限改为 除自己和所在群组外其他用户不能写入。
