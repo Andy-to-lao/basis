@@ -108,4 +108,6 @@
       解决方法：chmod -R 775 PYCR/
       表示将PYCR文件夹下所有的文件权限改为 除自己和所在群组外其他用户不能写入。
 十四、搜索包
-      sudo apt-cache search geom
+      sudo apt-cache search xxxxxxxxx
+      安装
+      sudo apt-get install xxxxxxxx
