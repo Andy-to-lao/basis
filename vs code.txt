@@ -1,6 +1,7 @@
 1.gdb调试 ros
    点击Debug -> open configurations -> C++(GDB/LLDB) -> default  创建launch.json文件
-  ①launch.json中    "configurations": [  后添加如下
+ 方法一：
+ ①launch.json中    "configurations": [  后添加如下
         
         {
         
@@ -11,6 +12,29 @@
         },
   ②CMakeLists.txt  中
     add_definitions(-std=c++11 -O0 -g)
+ 方法二：
+         {
+            "name": "cluster",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/devel/lib/depth_clustering/show_objects_node",
+            "args": [
+                "--num_beams 64"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+
 
 2.  保存自动格式化 setting 中
     Editor: Format On Save   点击√。
