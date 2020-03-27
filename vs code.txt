@@ -1,4 +1,5 @@
 1.gdb调试 ros
+   点击Debug -> open configurations -> C++(GDB/LLDB) -> default  创建launch.json文件
   ①launch.json中    "configurations": [  后添加如下
         
         {
