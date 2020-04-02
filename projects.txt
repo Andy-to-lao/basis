@@ -1,2 +1,8 @@
-
-1.   pcl 安装  https://blog.csdn.net/xx_katherine/article/details/73006325
+1.   绘制分时图和时序图:plantuml
+      1、PlantUML工具的安装；
+          1）通过VSCode插件搜索plantuml安装；
+          2）安装依赖java运行环境，ubuntu下安装命令：sudo apt-get install default-java
+      2、Plant定时图的使用；
+          参考链接：https://plantuml.com/zh/timing-diagram
+      3、PlantUML时序图的使用；
+          参考链接：https://plantuml.com/zh/sequence-diagram
