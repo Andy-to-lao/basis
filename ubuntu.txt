@@ -111,3 +111,10 @@
       sudo apt-cache search xxxxxxxxx
       安装
       sudo apt-get install xxxxxxxx
+十五、绘制类图软件
+      bouml
+      安装：https://www.bouml.fr/download.html#Ubuntu
+      教程：https://www.icode9.com/content-4-148232.html 
+           https://wenku.baidu.com/view/b95ccf6aaf1ffc4ffe47ac63.html
+      
+      
