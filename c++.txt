@@ -37,3 +37,4 @@
     std::cout.precision(6);
 19.进程加速OpenMP
   #pragma omp parallel for  schedule(runtime)
+20.assert()若条件返回错误，则终止程序执行，可以用NDEBUG来关闭
