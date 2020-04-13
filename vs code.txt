@@ -12,6 +12,8 @@
         },
   ②CMakeLists.txt  中
     add_definitions(-std=c++11 -O0 -g)
+    
+  然后
  方法二：
          {
             "name": "cluster",
