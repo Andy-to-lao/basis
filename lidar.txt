@@ -1,3 +1,4 @@
+https://mp.weixin.qq.com/s/xvAF_-rRlU5-hYmClFvTjA
 一、 点云都是连续的，图像是离散的
 二、 根据lidar不同的特征表达方式[1]，可以将目标检测方法分成以下4种：基于BEV（bird’s eye view）的目标检测方法，基于camera view的目标检测方法，
      基于point-wise feature的目标检测方法，基于融合特征的目标检测方法。
