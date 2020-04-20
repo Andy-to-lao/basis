@@ -47,3 +47,4 @@ rosparam get  /rviz_test_node/base_clothoid_path显示内容
           
 十五、ros中读取bag中的pointcloud数据存为pcd格式：
     rosrun pcl_ros bag_to_pcd ***.bag /topic path
+十六、一般情况下，建议将消息文件msg和服务文件srv制作成一个只包含消息文件的单独的包，而不是将其包含在可执行节点中，目的是去耦合。
