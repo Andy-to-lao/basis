@@ -23,8 +23,9 @@
     REQUIRED表示如果没有找到，cmake会停止处理，并报告一个错误.
 八、ros中查找有无某包
     rospack  find  autoware_build_flags
-九、rosparam  list   查看包含的param  
-rosparam get  /rviz_test_node/base_clothoid_path显示内容
+九、param
+    rosparam  list   查看包含的param  
+    rosparam get  /rviz_test_node/base_clothoid_path显示内容
 十、ros发送调试信息：
         launch      <node name="rviz_test_node" pkg="aiad_hmi" type="rviz_test_node" output="screen"/>
         *.cpp       ROS_INFO("%s", msg.data.c_str());
@@ -32,6 +33,7 @@ rosparam get  /rviz_test_node/base_clothoid_path显示内容
 十一、ros中设置相对路径：
     #include <ros/package.h> 
     #define SRC_PATH (ros::package::getPath("aiad_hmi") + "/src/rviz_path/config/")
+    (launch文件中)file="$(find depth_clustering)/examples/config/param.yaml"
 十二、rviz中解决加载URDF文件，动的关节不显示问题
         Simply run:
         sudo apt-get install ros-kinetic-moveit
@@ -47,4 +49,7 @@ rosparam get  /rviz_test_node/base_clothoid_path显示内容
           
 十五、ros中读取bag中的pointcloud数据存为pcd格式：
     rosrun pcl_ros bag_to_pcd ***.bag /topic path
-十六、一般情况下，建议将消息文件msg和服务文件srv制作成一个只包含消息文件的单独的包，而不是将其包含在可执行节点中，目的是去耦合。
+十六、msg   
+    一般情况下，建议将消息文件msg和服务文件srv制作成一个只包含消息文件的单独的包，而不是将其包含在可执行节点中，目的是去耦合。
+    find_package（）、add_message_files（）、generate_messages（）、catkin_package（）
+    
