@@ -52,4 +52,7 @@
 十六、msg   
     一般情况下，建议将消息文件msg和服务文件srv制作成一个只包含消息文件的单独的包，而不是将其包含在可执行节点中，目的是去耦合。
     find_package（）、add_message_files（）、generate_messages（）、catkin_package（）
+十七、rosbag 指令
+    rosbag play * -l --topic /my_topic 播放某个topic
+    rostopic hz /my_topic 测试某个topic的频率
     
