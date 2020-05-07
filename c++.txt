@@ -42,5 +42,7 @@
    if(log.isDebugEnabled()){
    log.debug("debug！"); } 
    这样做的好处是：在我们开发阶段有时候需要查看特定数据，我们可以把日志级别定为DEBUG级，调试信息会输出在日志里便于调试和跟踪修改bug。当产品发布上线之后，可以在log4j配置中去掉DEBUG级别，这时调试信息就不会输出在日志里，日志会只显示运行的相关信息。如此一来，控制输出什么日志不需要修改代码，只需修改配置文件的参数而已。
-22.C++ 命令行解析库 tclap 
+22.C++ 命令行解析库(解析main的参数) tclap 
   https://blog.csdn.net/youngpan1101/article/details/73742209
+
+
